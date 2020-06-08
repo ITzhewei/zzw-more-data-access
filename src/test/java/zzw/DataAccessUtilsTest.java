@@ -13,6 +13,7 @@ public class DataAccessUtilsTest {
 
     private static HashMap<String, String> cache1 = new HashMap<>();
     private static HashMap<String, String> cache2 = new HashMap<>();
+
     private MoreDataAccess<String, String> dataAccess1 = new MoreDataAccess<String, String>() {
 
         @Override
