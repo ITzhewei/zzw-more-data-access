@@ -8,6 +8,7 @@
     <artifactId>zzw-more-data-access</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>zzw-binlog-consumer</name>
+
     <developers>
         <developer>
             <name>zzw</name>
@@ -29,15 +30,8 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>releases</name>
-            <url>http://mvn2.qdingnet.com/nexus/content/repositories/releases</url>
-            <uniqueVersion>true</uniqueVersion>
-        </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <name>snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
